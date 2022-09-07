@@ -126,3 +126,20 @@ function large(a,b,c){
 
 var large=large(2,10,7);
 // // console.log(large);
+
+//anonymous and fat arrow function
+
+const nameMe=function(){
+    return "my name is mukesh kumar"
+}
+
+var myName=nameMe();
+// // console.log(myName);
+
+// const age=()=>{
+//     return "my age is 19"
+// }
+// var myAge=age();
+
+const age=()=>"my age is 19";
+// // console.log(myAge);
