@@ -77,9 +77,19 @@ for(let i=0;i<evenArr.length;i++){
 }
 
 var twoDArr=[[1,9],[8,3],[2,2]];
-console.log("hi");
 for(let i=0;i<twoDArr.length;i++){
     for(let j=0;j<twoDArr[i].length;j++){
         // // console.log(twoDArr[i][j]);
     }
 }
+
+// do while loop
+
+var Arr=[];
+var i=0;
+do{
+    Arr.push(i);
+    i++;
+}while(i>0 && i<10);
+
+console.log(Arr);
