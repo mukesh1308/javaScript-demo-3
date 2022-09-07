@@ -54,3 +54,32 @@ while(itx<10){
 }
 
 // // console.log(arr);
+
+// for loop
+
+var forArr=[];
+
+for(let i=0;i<10;i++){
+    forArr.push(i);
+}
+
+// // console.log(forArr);
+
+var evenArr=[];
+
+for(let i=0;i<20;i+=2){
+    evenArr.push(i);
+}
+// // console.log(evenArr);
+
+for(let i=0;i<evenArr.length;i++){
+    // // console.log(evenArr[i]);
+}
+
+var twoDArr=[[1,9],[8,3],[2,2]];
+console.log("hi");
+for(let i=0;i<twoDArr.length;i++){
+    for(let j=0;j<twoDArr[i].length;j++){
+        // // console.log(twoDArr[i][j]);
+    }
+}
