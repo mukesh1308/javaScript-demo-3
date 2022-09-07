@@ -92,4 +92,14 @@ do{
     i++;
 }while(i>0 && i<10);
 
-console.log(Arr);
+// // console.log(Arr);
+
+//random function
+
+var randomFraction=Math.random();
+// // console.log(randomFraction);
+
+//generateing random number between 0 and 6
+
+var RandNum=Math.floor(Math.random()*6);
+// // console.log(RandNum);
