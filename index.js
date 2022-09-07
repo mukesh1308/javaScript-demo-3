@@ -103,3 +103,16 @@ var randomFraction=Math.random();
 
 var RandNum=Math.floor(Math.random()*6);
 // // console.log(RandNum);
+
+// parseInt function
+
+function stringToInt(str){
+    return parseInt(str);
+}
+var num=stringToInt("54");
+// // console.log(typeof(num));
+
+function binToInt(str){
+    return parseInt(str,2);
+}
+// // console.log(binToInt("10011"));
