@@ -42,3 +42,15 @@ delete myDog.bark;
 
 var isBark=isThere(myDog, "bark");
 // // console.log(isBark);
+
+
+//while loop
+
+var arr=[];
+var itx=0;
+while(itx<10){
+    arr.push(itx);
+    itx++;
+}
+
+// // console.log(arr);
