@@ -116,3 +116,13 @@ function binToInt(str){
     return parseInt(str,2);
 }
 // // console.log(binToInt("10011"));
+
+
+//ternary opurator
+
+function large(a,b,c){
+    return a>b? a>c? a:c : b>c? b:c;
+}
+
+var large=large(2,10,7);
+// // console.log(large);
