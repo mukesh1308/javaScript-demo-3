@@ -187,3 +187,11 @@ function removeTwo(list){
 var after=removeTwo(list);
 // // console.log("before :"+list);
 // // console.log("after :"+after);
+
+//Template literal
+
+var num2=15;
+
+var nameNum=`the number is ${num2}`;
+
+// // console.log(nameNum);
