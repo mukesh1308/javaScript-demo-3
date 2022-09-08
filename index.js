@@ -209,4 +209,41 @@ function makeList(arr){
     return newArr;
 }
 
-console.log(makeList(result.failure));
+// // console.log(makeList(result.failure));
+
+// class
+
+class SpaceShuttle{
+    constructor(t){
+        this.targetplanet =t;
+    }
+}
+var zeus=new SpaceShuttle("jupiter");
+
+// // console.log(zeus);
+
+function makeClass(){
+    class vegetable{
+        constructor(n){
+            this.name=n;
+        }
+    }
+    return vegetable;
+}
+const Vegetable=makeClass();
+const tomato=new Vegetable("tomato");
+// // console.log(tomato);
+
+class book{
+    constructor(n){
+        this.aurtor=n;
+    }
+    get write(){
+        return this.aurtor;
+    }
+    set write(n){
+        this.aurtor=n;
+    }
+}
+const B=new book("my book");
+console.log(B);
