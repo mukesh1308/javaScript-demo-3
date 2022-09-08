@@ -195,3 +195,18 @@ var num2=15;
 var nameNum=`the number is ${num2}`;
 
 // // console.log(nameNum);
+
+// challenge
+
+const result={
+    success:["max-length","no-amd","prefer-arrow-functions"],
+    failure:["no-var","var-on-top","linebreak"],
+    skipped:["id-blacklist","no-dup-keys"]
+};
+
+function makeList(arr){
+    var newArr=arr.map((ele)=>{return `<li class="text-warning">${ele}<li>`});
+    return newArr;
+}
+
+console.log(makeList(result.failure));
