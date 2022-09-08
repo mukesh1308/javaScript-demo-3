@@ -143,3 +143,47 @@ var myName=nameMe();
 
 const age=()=>"my age is 19";
 // // console.log(myAge);
+
+// object destructuring
+
+const Objects={x:5,y:10,z:15};
+
+var {x:a,y:b,z:c}=Objects;
+
+// // console.log(a+" "+b+" "+c);
+
+const avgTemp={today:77.5,tomorrow:79};
+
+function getTemp(avg){
+    var {today : todayTem}=avg;
+    return todayTem;
+}
+
+// // console.log(getTemp(avgTemp));
+
+const temp={
+    today : {max:83 ,min:72},
+    tomorrow : {max:84.6,min:73.3}
+};
+
+function getMaxTemp(Temp){
+    const {today : {max : m}}=Temp;
+    return m;
+}
+
+// // console.log(getMaxTemp(temp));
+
+const [x,y,,z]=[1,2,3,4,6,7,8];
+
+// // console.log(x+" "+y+" "+z);
+
+const list=[1,2,3,4,5,6,,7,8,9];
+
+function removeTwo(list){
+    var [ , , ...arr]=list;
+    return arr;
+}
+
+var after=removeTwo(list);
+// // console.log("before :"+list);
+// // console.log("after :"+after);
